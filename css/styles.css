@@ -71,6 +71,7 @@ img {
 /* Секція хедер */
 .header {
   background-color: #ffffff;
+  border: 1px solid #ececec;
 }
 
 .header-container {
@@ -222,11 +223,10 @@ img {
 /* Секція роботи */
 
 .work {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section-work {
+.work-section {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -259,7 +259,6 @@ img {
 }
 
 .section-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -298,6 +297,7 @@ img {
 .footer-list {
   display: flex;
   flex-direction: column;
+  font-style: normal;
 }
 
 .footer-contact:not(:last-child) {
@@ -346,7 +346,7 @@ img {
 
 /* Портфоліо */
 
-/* Фільт робіт */
+/* Фільтр робіт */
 
 .section-work {
   padding-top: 94px;
@@ -356,7 +356,7 @@ img {
 .list-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .button-work:not(:last-child) {
